@@ -1,0 +1,261 @@
+*, ::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Open Sans';
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1128px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 16px 0;
+}
+
+.header__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__logo {
+  margin-right: 64px;
+}
+
+.header__inlet {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+}
+
+.header__login {
+  margin-right: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__basket {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #F73859;
+  border-radius: 4px;
+}
+
+.header__box {
+  margin-right: 4px;
+}
+
+.header__login-text {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #222222;
+}
+
+.header__basket-text {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #F73859;
+}
+
+.contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.location__box {
+  margin-right: 4px;
+}
+
+.location__text {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #222222;
+}
+
+.call {
+  margin-left: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.call__box {
+  margin-right: 4px;
+}
+
+.call__text {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #222222;
+}
+
+.mail {
+  margin-left: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mail__box {
+  margin-right: 4px;
+}
+
+.mail__text {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #222222;
+}
+
+.navbar {
+  padding: 4px 0;
+  background-color: #282828;
+}
+
+.navbar__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu__item {
+  margin-right: 32px;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
+.promo {
+  border: 1px solid #FFFFFF;
+  border-radius: 4px;
+}
+
+.promo__input {
+  padding: 8px 10px;
+  width: 198px;
+  color: #7C7C7C;
+  background-color: transparent;
+}
+
+.promo__btn {
+  padding: 8px 10px;
+  background-color: #FFFFFF;
+  cursor: pointer;
+}
+
+.slider__wrap {
+  height: 496px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.slider__wrap img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.slider__btn {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  right: 50%;
+  bottom: 600px;
+  z-index: 2;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.slider__position {
+  width: 12px;
+  height: 12px;
+  margin: 0 6px;
+  border-radius: 50px;
+  border: 3px solid #FFFFFF;
+}
+
+.slider__btn-prev {
+  margin-right: 24px;
+  width: 40px;
+  height: 40px;
+  background-color: #FFFFFF;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.slider__btn-next {
+  margin-left: 24px;
+  width: 40px;
+  height: 40px;
+  background-color: #FFFFFF;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

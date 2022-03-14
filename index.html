@@ -1,12 +1,113 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Финальный проект</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Финальный проект</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="header__wrapper">
+                    <img src="/images/logo.svg" alt="logo" class="header__logo">
+                    <div class="contacts">
+                        <a href="#" class="location">
+                            <div class="location__box">
+                                <img src="/images/location-arrow.svg" alt="arrow" class="location__logo">
+                            </div>
+                            <p class="location__text">Барнаул</p>
+                        </a>
+                        <a href="tel:+78007000834" class="call">
+                            <div class="call__box">
+                                <img src="./images/phone.svg" alt="phone" class="call__logo">
+                            </div>
+                            <p class="call__text">8 (800) 700-08-34</p>
+                        </a>
+                        <a href="mailto:shop@greentest.com" class="mail">
+                            <div class="mail__box">
+                                <img src="/images/mail.svg" alt="mail" class="mail__logo">
+                            </div>
+                            <p class="mail__text">shop@greentest.com</p>
+                        </a>
+                    </div>
+                    <div class="header__inlet">
+                        <a href="#" class="header__login">
+                            <div class="header__box">
+                                <img src="/images/login.svg" alt="login" class="header__login-logo">
+                            </div>
+                            <p class="header__login-text">Вход</p>
+                        </a>
+                        <a href="#" class="header__basket">
+                            <div class="header__box">
+                                <img src="/images/basket.svg" alt="basket" class="header__basket-logo">
+                            </div>
+                            <p class="header__basket-text">Корзина</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="navbar">
+            <div class="container">
+                <div class="navbar__wrapper">
+                    <div class="menu">
+                        <a href="#" class="menu__item">Преимущества</a>
+                        <a href="#" class="menu__item">Товары</a>
+                        <a href="#" class="menu__item">Статьи</a>
+                        <a href="#" class="menu__item">Партнеры</a>
+                        <a href="#" class="menu__item">Галерея</a>
+                        <a href="#" class="menu__item">Оптовикам</a>
+                    </div>
+                    <div class="promo">
+                        <input class="promo__input" name="promo" type="text" value="Введите промокод">
+                        <input class="promo__btn" name="ok" type="submit" value="ОК">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="slider swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="slider__wrap">
+                        <img src="/pictures/slider1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slider__wrap">
+                        <img src="/pictures/slider2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slider__wrap">
+                        <img src="/pictures/slider3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="slider__btn">
+                <div class="slider__btn-prev">
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3.3495 6.10003L8.043 1.27256L6.80575 0L0 7L6.80575 14L8.043 12.7274L3.3495 7.89997H14V6.10003H3.3495Z" fill="black"/>
+                    </svg>  
+                </div>
+                <div class="slider__position"></div>
+                <div class="slider__position"></div>
+                <div class="slider__position"></div>
+                <div class="slider__position"></div>
+                <div class="slider__btn-next">
+                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M10.6505 6.10003L5.957 1.27256L7.19425 0L14 7L7.19425 14L5.957 12.7274L10.6505 7.89997H0V6.10003H10.6505Z" fill="black"/>
+                    </svg>   
+                </div>
+            </div> 
+        </div>
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
 </html>
