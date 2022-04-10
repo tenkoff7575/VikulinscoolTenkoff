@@ -1,28 +1,39 @@
 .slider__wrap
-    height: 496px
-    text-align: center
-    position: relative
-    z-index: 1
-    img
-        max-width: 100%
-        max-height: 100%
 .slider
+    max-height: 496px
+    position: relative
+    text-align: center
+    z-index: 1
+
+    &__promo
+       max-width: 451px
+       position: absolute
+       z-index: 2
+       left: 21%
+       top: 56px
+       padding: 32px
+       background-color: $white
+    &__title
+       font-size: 48px
+       font-weight: 700
+       line-height: 48px
+       color: $main-text
+    &__text
+       margin: 24px 0
+       text-align: left
+       font-size: 15px
+       font-weight: 400
+       line-height: 24px
+       color: $gray
     &__btn
+       width: 100%
        position: absolute
        display: flex
-       right: 50%
-       bottom: 600px
-       z-index: 2 
+       justify-content: center
        align-items: center
-    &__position
-       width: 12px
-       height: 12px
-       margin: 0 6px
-       border-radius: 50px
-       border: 3px solid $white
-   
+       bottom: 60px
+       z-index: 2 
     &__btn-prev
-       margin-right: 24px
        width: 40px
        height: 40px
        background-color: $white
@@ -32,7 +43,6 @@
        align-items: center
        cursor: pointer
     &__btn-next
-       margin-left: 24px
        width: 40px
        height: 40px
        background-color: $white
@@ -41,4 +51,18 @@
        justify-content: center
        align-items: center
        cursor: pointer
-    
+    .swiper-pagination
+       margin: 0 24px
+       bottom: 0 !important
+       width: auto !important
+       position: relative
+    .swiper-pagination-bullet
+       width: 12px
+       height: 12px
+       border: 3px solid $white
+       background: transparent
+       opacity: 1
+    .swiper-pagination-bullet-active
+       border: 3px solid $main-color
+       background-color: $main-color
+   

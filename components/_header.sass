@@ -1,4 +1,4 @@
-.header
+.header-desktop
     padding: 16px 0
     &__wrapper
         display: flex
@@ -11,12 +11,26 @@
         margin-right: 16px
         display: flex
         align-items: center
+        &:hover
+            & p 
+                color: $product-color
+            & svg path { fill: $product-color }
     &__basket
         padding: 10px
         display: flex
         align-items: center
         border: 1px solid $main-color
         border-radius: 4px
+    &__basket:hover
+        background-color: $main-color
+        & svg path { fill: $white }
+        & p 
+            color: $white
+    &__basket-text
+        font-size: 15px
+        font-weight: 600
+        line-height: 20px
+        color: $main-color
     &__box
         margin-right: 4px 
     &__login-text
@@ -24,9 +38,5 @@
         font-weight: 600
         line-height: 20px
         color: $main-text
-    &__basket-text
-        font-size: 15px
-        font-weight: 600
-        line-height: 20px
-        color: $main-color
+    
 
