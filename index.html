@@ -64,6 +64,24 @@
                         </div>
                     </div>
                 </div>
+                <div class="header-desktop__navbar">
+                    <div class="container">
+                        <div class="header-desktop__navbar-wrap">
+                            <div class="header-desktop__menu">
+                                <a href="#" class="header-desktop__menu-item">Преимущества</a>
+                                <a href="#" class="header-desktop__menu-item">Товары</a>
+                                <a href="#" class="header-desktop__menu-item">Статьи</a>
+                                <a href="#" class="header-desktop__menu-item">Партнеры</a>
+                                <a href="#" class="header-desktop__menu-item">Галерея</a>
+                                <a href="#" class="header-desktop__menu-item">Оптовикам</a>
+                            </div>
+                            <div class="promo-desktop">
+                                <input class="promo-desktop__input" name="promo" type="text" value="Введите промокод">
+                                <input class="promo-desktop__btn" name="ok" type="submit" value="ОК">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </header>
             <header class="header-mobile">
                 <div class="container-mobile">
@@ -88,6 +106,16 @@
                                     <p class="header-mobile__basket-text">| 22</p>
                                 </div>
                             </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-mobile__navbar">
+                    <div class="container-mobile">
+                        <div class="header-mobile__navbar-wrap">
+                            <div class="promo-mobile">
+                                <input class="promo-mobile__input" name="promo" type="text" value="Введите промокод">
+                                <input class="promo-mobile__btn" name="ok" type="submit" value="ОК">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -130,41 +158,18 @@
                 </section>
             </header>
         </header>
-        <section class="navbar">
-            <section class="navbar-desktop">
-                <div class="container">
-                    <div class="navbar-desktop__wrapper">
-                        <div class="menu">
-                            <a href="#" class="menu-desktop__item">Преимущества</a>
-                            <a href="#" class="menu-desktop__item">Товары</a>
-                            <a href="#" class="menu-desktop__item">Статьи</a>
-                            <a href="#" class="menu-desktop__item">Партнеры</a>
-                            <a href="#" class="menu-desktop__item">Галерея</a>
-                            <a href="#" class="menu-desktop__item">Оптовикам</a>
-                        </div>
-                        <div class="promo-desktop">
-                            <input class="promo-desktop__input" name="promo" type="text" value="Введите промокод">
-                            <input class="promo-desktop__btn" name="ok" type="submit" value="ОК">
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="navbar-mobile">
-                <div class="container-mobile">
-                    <div class="navbar-mobile__wrapper">
-                        <div class="promo-mobile">
-                            <input class="promo-mobile__input" name="promo" type="text" value="Введите промокод">
-                            <input class="promo-mobile__btn" name="ok" type="submit" value="ОК">
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </section>
         <div class="slider swiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <div class="slider__wrap">
-                        <img src="/pictures/slider1.jpg" alt="">
+                    <img src="/pictures/slider1.jpg" alt="">
+                    <div class="container">
+                        <div class="slider__promo">
+                            <h2 class="slider__title">Greentest ECO 5</h2>
+                            <p class="slider__text">Greentest ECO 5 – это 3-в-1! Проверяйте продукты<br>на нитраты, измеряйте жёсткость воды и уровень радиации в вашей квартире или загородном доме.</p>
+                            <p class="discount">11 999 ₽ </p>
+                            <p class="price">8900 ₽</p>
+                            <button class="btn__buy btn__buy-left">Купить</button>
+                        </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
@@ -177,13 +182,6 @@
                         <img src="/pictures/slider32.jpg" alt="">
                     </div>
                 </div>
-            </div>
-            <div class="slider__promo">
-                <h2 class="slider__title">Greentest ECO 5</h2>
-                <p class="slider__text">Greentest ECO 5 – это 3-в-1! Проверяйте продукты<br>на нитраты, измеряйте жёсткость воды и уровень радиации в вашей квартире или загородном доме.</p>
-                <p class="discount">11 999 ₽ </p>
-                <p class="price">8900 ₽</p>
-                <button class="btn__buy btn__buy-left">Купить</button>
             </div>
             <div class="slider__btn">
                 <div class="slider__btn-prev">
@@ -269,14 +267,14 @@
                          <img src="/pictures/advantages-img1.jpg" alt="" class="advantages__img">
                      </div>
                  </div>
-                 <div class="advantages__wrap">
-                    <div class="advantages__img-box">
-                        <img src="/pictures/advantages-img2.jpg" alt="" class="advantages__img">
-                    </div>
-                    <div class="advantages__text-box">
-                         <h3 class="advantages__title">Общая эргономика,<br>удобное меню и т.п.</h3>
-                         <p class="advantages__text">Чтобы уменьшить воздействие нитратов на организм, следует стараться употреблять в пищу только сезонные фрукты и овощи, тщательно их промывать и вымачивать в соленой воде. Но точно понять, можно ли употреблять в пищу тот или иной продукт, поможет нитратомер Greentest ECO 5.</p>
-                     </div>
+                 <div class="advantages__wrap advantages__reverse">
+                        <div class="advantages__text-box advantages__padding">
+                            <h3 class="advantages__title">Общая эргономика,<br>удобное меню и т.п.</h3>
+                            <p class="advantages__text">Чтобы уменьшить воздействие нитратов на организм, следует стараться употреблять в пищу только сезонные фрукты и овощи, тщательно их промывать и вымачивать в соленой воде. Но точно понять, можно ли употреблять в пищу тот или иной продукт, поможет нитратомер Greentest ECO 5.</p>
+                        </div>
+                        <div class="advantages__img-box">
+                            <img src="/pictures/advantages-img2.jpg" alt="" class="advantages__img">
+                        </div>
                  </div>
                  <div class="advantages__wrap">
                      <div class="advantages__text-box">

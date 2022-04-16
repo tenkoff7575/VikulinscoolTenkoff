@@ -1,8 +1,11 @@
 .ware
+    margin: 0 -12px
     padding-bottom: 32px 
     display: flex
-    justify-content: space-between
     flex-wrap: wrap
+    &__item
+        width: calc( 25% - 24px )
+        margin: 0 12px
     &__img-box
        max-width: 264px
        max-height: 264px 
@@ -15,3 +18,11 @@
         font-weight: 700
         line-height: 24px
         color: $main-text
+    @media (max-width:992px)
+        justify-content: center
+        &__item
+             width: calc( 50% - 24px )
+       
+        
+        
+             

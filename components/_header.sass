@@ -1,5 +1,5 @@
 .header-desktop
-    padding: 16px 0
+    padding-top: 16px
     &__wrapper
         display: flex
     &__logo
@@ -14,7 +14,8 @@
         &:hover
             & p 
                 color: $product-color
-            & svg path { fill: $product-color }
+            & svg path 
+                fill: $product-color
     &__basket
         padding: 10px
         display: flex
@@ -23,7 +24,8 @@
         border-radius: 4px
     &__basket:hover
         background-color: $main-color
-        & svg path { fill: $white }
+        & svg path
+            fill: $white 
         & p 
             color: $white
     &__basket-text
@@ -38,5 +40,21 @@
         font-weight: 600
         line-height: 20px
         color: $main-text
-    
+    &__navbar
+        margin-top: 16px
+        padding: 4px 0
+        background-color: $navbar-bg
+    &__navbar-wrap
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &__menu-item
+        margin-right: 32px
+        font-size: 13px
+        font-weight: 600
+        line-height: 16px
+        color: $white
+    &__menu-item:hover
+        padding-bottom: 8px
+        border-bottom: 4px solid $white
 
