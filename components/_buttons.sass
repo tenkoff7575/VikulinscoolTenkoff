@@ -18,12 +18,16 @@
 	border: 1px solid $gray
 	border-radius: 3px
 	color: $gray
+	&__box
+		display: inline-block
+	&__box input[type=radio]
+		display: none
 	&__text
 		margin-right: 2px
 		font-size: 11px
 		font-weight: 400
 		line-height: 16px
-.btn-iphone:hover
+.btn-iphone__box input[type=radio]:checked + label
 	color: $product-color
 	border: 1px solid $product-color
 	& svg path 
@@ -34,12 +38,16 @@
 	border: 1px solid $gray
 	border-radius: 3px
 	color: $gray
+	&__box
+		display: inline-block
+	&__box input[type=radio]
+		display: none
 	&__text
 		margin-right: 2px
 		font-size: 11px
 		font-weight: 400
 		line-height: 16px
-.btn-android:hover
+.btn-android__box input[type=radio]:checked + label
 	color: $product-color
 	border: 1px solid $product-color
 	& svg path 
